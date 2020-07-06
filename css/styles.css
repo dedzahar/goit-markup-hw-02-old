@@ -143,3 +143,35 @@ body {
 .footer .image-item-subtitle {
   color: #ffffff;
 }
+
+.projects-filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.projects-filter-btn:hover,
+.projects-filter-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.projects-list-item-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.projects-list-item-text {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
