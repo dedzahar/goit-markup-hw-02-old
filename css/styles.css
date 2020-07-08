@@ -4,6 +4,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 
 .link {
@@ -14,12 +15,15 @@ body {
   list-style: none;
 }
 
+.centered {
+  text-align: center;
+}
+
 .section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
 }
@@ -90,7 +94,6 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: #212121;
@@ -107,7 +110,6 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
   /* color: #ffffff; */
@@ -124,7 +126,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list-item-title {
@@ -132,50 +133,13 @@ body {
   color: #212121;
 }
 
-/* FOOTER */
-
-.footer {
-  background-color: #2f303a;
-}
-
-.footer .logo-link {
-  color: #ffffff;
-}
-
-.footer-address-list-item,
-.footer-address-list-item-link {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  font-style: normal;
-}
-
-.footer-address-list-item {
-  color: #ffffff;
-}
-
-.footer-address-list-item-link {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-appeal {
-  font-weight: bold;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.image-item-text {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
+/* PORTFOLIO PROJECTS */
 
 .projects-filter-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
 
   color: #212121;
   background-color: #f5f4fa;
@@ -198,6 +162,36 @@ body {
 .projects-list-item-text {
   font-size: 16px;
   line-height: 1.875;
-  letter-spacing: 0.03em;
   color: #757575;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo-link {
+  color: #ffffff;
+}
+
+.footer-address-list-item,
+.footer-address-list-item-link {
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.footer-address-list-item {
+  color: #ffffff;
+}
+
+.footer-address-list-item-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-appeal {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
 }
