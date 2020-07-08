@@ -14,6 +14,18 @@ body {
   list-style: none;
 }
 
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* HEADER */
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -28,7 +40,6 @@ body {
 
 .navigation-list-item-link,
 .header-address-list-item-link {
-  color: #212121;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -49,6 +60,8 @@ body {
 .header-address-list-item-link {
   color: #757575;
 }
+
+/* HERO */
 
 .hero-title {
   font-weight: 900;
@@ -71,8 +84,11 @@ body {
   background-color: #2196f3;
 }
 
-.image-item-subtitle {
+/* FEATURES */
+
+.features-list-item-subtitle {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -80,25 +96,24 @@ body {
   color: #212121;
 }
 
-.image-item-text {
+.features-list-item-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.section-title {
+/* WE DOING */
+
+.we-doing-list-item-subtitle {
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
-
-  color: #212121;
-}
-
-.we-doing-list-item .image-item-subtitle {
+  text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
+
+/* TEAM */
 
 .team {
   background-color: #f5f4fa;
@@ -116,6 +131,8 @@ body {
   font-weight: 500;
   color: #212121;
 }
+
+/* FOOTER */
 
 .footer {
   background-color: #2f303a;
@@ -140,8 +157,17 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer .image-item-subtitle {
+.footer-appeal {
+  font-weight: bold;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #ffffff;
+}
+
+.image-item-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .projects-filter-btn {
